@@ -19,9 +19,11 @@ import com.parse.ParseObject;
 public class BeaconApplication extends Application {
   private static final String LOG_TAG = BeaconApplication.class.getSimpleName();
 
-  private static final String APP_ID = "qZwUoyuZzULMDRvIy3rcKgdT1q51Ud88Q4YZFXWv";
-
-  private static final String CLIENT_KEY = "q7noGevmDbpjQxX1IobD7T3ZJye3AMhRX7v99Je2";
+//  private static final String APP_ID = "qZwUoyuZzULMDRvIy3rcKgdT1q51Ud88Q4YZFXWv";
+//  private static final String CLIENT_KEY = "q7noGevmDbpjQxX1IobD7T3ZJye3AMhRX7v99Je2";
+  
+  private static final String APP_ID = "8Vhw6pjkVd9PuP1uwWj9KZM7qHS8MzJNSIjlsOLE";
+  private static final String CLIENT_KEY = "gcvfYTzH6OpR7LXCXyhUN2wWRvuYQqBbpZL7kz0E";
   
   private final Set<Recipe> myRecipes = new HashSet<Recipe>();
 
